@@ -23,7 +23,7 @@ const page = () => {
         </div>
         <h2 className='text-grey-700'>I would love to hear from you</h2>
         <p className='text-grey-700'>
-            Tell me what your dream and i'll bring it into reality
+            Tell me what your dream is, and I&apos;ll bring it into reality.
         </p>
       </div>
     </section>
@@ -63,7 +63,9 @@ const page = () => {
                 ))}
             </div>
         </div>
-        <div className='box w-full' data-aos='fade-up' data-aos-delay='500'>
+        <div className='box w-full' 
+        data-aos='fade-up' 
+        data-aos-delay='400'>
             <form action='' className='space-y-5'>
                 <div className='flex gap-5 max-tablet:flex-col'>
                     <input type='text' placeholder='First Name' />

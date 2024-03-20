@@ -38,13 +38,13 @@ const AboutPage = () => {
               <h1 className='text-grey-700' 
               data-aos='fade-down' 
               data-aos-delay='200'>
-                I'm Denzel Obeng
+                I&apos;m Denzel Obeng
                 </h1>
               <p className='text-grey-600' 
               data-aos='fade-down' 
               data-aos-delay='300'
               >
-                Hello there, I'm Alan a professional and skilled UX/UI designer 
+                Hello there, I&apos;m Alan a professional and skilled UX/UI designer 
                 with over 3 years of experience. I have been working with 
                 agencies and individuals. Started working with Adobe XD and later 
                 along the line advanced to Figma. I am now learning new technologies, 
@@ -77,7 +77,9 @@ const AboutPage = () => {
         </section>
 
         {/* milestones section*/}
-        <section className='max-width section-padding' data-aos='fade-up' data-aos-delay='200'>
+        <section className='max-width section-padding' 
+        data-aos='fade-up' 
+        data-aos-delay='200'>
           <SectionHeading 
             title='Milestones of my career'
             subtitle='Below are the milestones i have gone through since i started my UI design journey'
