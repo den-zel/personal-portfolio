@@ -54,7 +54,7 @@ const Page = () => {
           >
             <div>
               <h3 className="text-grey-700">
-                55 <span className="text-blue">+</span>
+                6 <span className="text-blue">+</span>
               </h3>
               <p className="text-grey-600">Projects Completed</p>
             </div>
