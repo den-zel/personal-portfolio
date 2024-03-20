@@ -45,7 +45,7 @@ const Footer = () => {
       {/* copyright text */}
 
       <p className='mt-8 text-grey-600 text-center text-sm'>
-        Copyright © { new Date().getFullYear()} Alan Obeng. All Rights Reserved
+        Copyright © { new Date().getFullYear()} Denzel Obeng. All Rights Reserved
       </p>
 
     </footer>

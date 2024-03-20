@@ -10,10 +10,6 @@ export const navLinks = [
     url: "/about",
   },
   {
-    label: "Portfolio",
-    url: "/portfolio",
-  },
-  {
     label: "Contact",
     url: "/contact",
   },
@@ -21,13 +17,6 @@ export const navLinks = [
 export const skills = [
   {
     id: 1,
-    name: "Front-end Development",
-    description:
-      "Proficiency in coding the visual aspects of websites using HTML, CSS, and JavaScript to ensure a seamless and attractive user interface.",
-    icon: "/icons/service-1.svg",
-  },
-  {
-    id: 2,
     name: "User Interface - UI Development",
     description:
       "Ability to craft visually appealing and user-friendly interfaces using code to enhance user engagement and interaction.",
@@ -42,38 +31,24 @@ export const skills = [
   },
   {
     id: 4,
-    name: "Responsive Web Development",
+    name: "Responsive Design",
     description:
-      "Capability to develop websites that adapt and function flawlessly across various devices and screen sizes using coding techniques.",
+      "Capability to webpages websites that adapt and function flawlessly across various devices and screen sizes using design principles.",
     icon: "/icons/service-4.svg",
-  },
-  {
-    id: 5,
-    name: "Prototyping and Development Testing",
-    description:
-      "Ability to code prototypes and conduct thorough testing to visualize and refine website functionalities.",
-    icon: "/icons/service-5.svg",
-  },
-  {
-    id: 6,
-    name: "Mobile-Friendly Coding",
-    description:
-      "Proficiency in coding practices that ensure websites function seamlessly on mobile devices.",
-    icon: "/icons/service-6.svg",
   },
 ];
 export const benefits = [
   {
     id: 1,
-    name: "Customized Development Aligned with Your Brand",
+    name: "Customized Design Aligned with Your Brand",
     description:
       "I recognize the importance of translating your brand identity into a unique website. By closely collaborating with you, I ensure that your website embodies your brand's personality, values, and objectives. The result is a custom-developed platform that distinguishes you from competitors and resonates with your target audience.",
   },
   {
     id: 2,
-    name: "Creative Coding for Visitor Engagement",
+    name: "Creative Designs for Visitor Engagement",
     description:
-      "With a strong sense of aesthetics and a creative drive, I specialize in coding visually stunning and engaging websites. By integrating elegant code structures, interactive elements, and strategic design principles, I craft an immersive and impactful user experience. Your website will captivate visitors, enhancing your brand's credibility and professionalism.",
+      "With a strong sense of aesthetics and a creative drive, I specialize in creating visually stunning and engaging designs. By integrating elegant design elements, interactive style, and strategic design principles, I craft an immersive and impactful user experience. Your website will captivate visitors, enhancing your brand's credibility and professionalism.",
   },
   {
     id: 3,
@@ -83,32 +58,26 @@ export const benefits = [
   },
   {
     id: 4,
-    name: "Mobile-Optimized Coding for Widespread Accessibility",
+    name: "Responsive design for Widespread Accessibility",
     description:
-      "In today's mobile-driven landscape, a responsive website is essential. I specialize in coding mobile-friendly designs that seamlessly adapt to various devices and screen sizes. Your website will maintain its appearance and functionality across desktops, smartphones, and tablets, allowing you to reach and engage your audience effectively.",
-  },
-  {
-    id: 5,
-    name: "Proficiency in Advanced Coding Technologies",
-    description:
-      "With expertise in HTML, CSS, JavaScript, and cutting-edge front-end technologies, I possess the technical prowess to execute your design concepts. From seamless animations to interactive features, I leverage the latest coding technologies to elevate user engagement and deliver a dynamic user experience.",
+      "In today's mobile-driven landscape, a responsive design is essential. I specialize in creating mobile-friendly designs that seamlessly adapt to various devices and screen sizes. Your website will maintain its appearance and functionality across desktops, smartphones, and tablets, allowing you to reach and engage your audience effectively.",
   },
 ];
 export const portfolios = [
   {
     id: 1,
-    title: "Oownee",
+    title: "Lift Influence",
     link: "https://www.oownee.com",
     images: [
-      "/images/oownee.webp",
+      "/images/liftinfluence.png",
     ],
   },
   {
     id: 2,
-    title: "Nova",
-    link: "https://www.trynova.co",
+    title: "Oownee",
+    link: "https://www.oownee.com",
     images: [
-      "/images/nova.png",
+      "/images/oownee.webp",
     ],
   },
   {
@@ -117,14 +86,6 @@ export const portfolios = [
     link: "https://www.tryvoxai.co",
     images: [
       "/images/vox.png",
-    ],
-  },
-  {
-    id: 4,
-    title: "Lift Influence",
-    link: "https://www.liftinfluence.com",
-    images: [
-      "/images/liftinfluence.png",
     ],
   },
 ];
@@ -264,27 +225,27 @@ export const faqs = [
   },
   {
     id: 2,
-    question: "Do you offer website maintenance services?",
+    question: "What tools do you work with?",
     answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
+      "I work with Adobe XD and Figma. Now learning more about other new tools",
   },
   {
     id: 3,
-    question: "Do you offer website maintenance services?",
+    question: "How long does it take to design a landing page?",
     answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
+      "That will totally depend on the client's communication and preference. Normally takes not more than 12 hours",
   },
   {
     id: 4,
-    question: "Do you offer website maintenance services?",
+    question: "How long have you been doing this?",
     answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
+      "For over 3 years now, still going",
   },
   {
     id: 5,
-    question: "Do you offer website maintenance services?",
+    question: "Do you have a specific niche?",
     answer:
-      "Yes, I offer website maintenance services. I will ensure that your website is up-to-date and running smoothly.",
+      "No i do not have a specific niche, i can work with any niche at all",
   },
 ];
 export const socialLinks = [
@@ -327,31 +288,31 @@ export const contactDetails = [
 export const timeline = [
   {
     id: 1,
-    title: "Senior Web Developer",
-    duration: "2018 - Present",
+    title: "UI Designer",
+    duration: "2023 - Present",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "I have been a full-time UI designer for Studio IX since June 2023",
   },
   {
     id: 2,
-    title: "Web Developer",
-    duration: "2015 - 2018",
+    title: "UI Designer Intern",
+    duration: "2021 - 2022",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "UI Design internship at Studio IX from January 2021-March 2022",
   },
   {
     id: 3,
-    title: "Junior Web Developer",
-    duration: "2013 - 2015",
+    title: "Junior Web Designer",
+    duration: "2021 - 2023",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "Was a Junior UI dsigner at Midas Inc.",
   },
   {
     id: 4,
-    title: "Degree in Computer Science",
-    duration: "2010 - 2013",
+    title: "Best Arts Student",
+    duration: "2018 - 2020",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "Won the best arts and design student in Senior High School",
   },
   
 ];

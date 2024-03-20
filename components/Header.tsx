@@ -14,16 +14,17 @@ const Header = () => {
       <nav className='flex items-center gap-12 max-tablet:hidden'>
         <ul className='flex items-center gap-8'>
           {navLinks.map((link, index) => (
-          <li key={index}>
-            <NavLink href={link.url} label={link.label} />
-          </li>
+            <li key={index}>
+              <NavLink href={link.url} label={link.label} />
+            </li>
           ))}
         </ul>
-        <Link href={'/contact'} className='btn btn-primary'>
+        <a href={`mailto:denzelobeng421@gmail.com`} className='btn btn-primary'>
           <div className='text-grey-100 hover:text-white flex items-center gap-2'> 
-          <Phone size={24} />
-          Contact me</div>
-        </Link>
+            <Phone size={24} />
+            Contact me
+          </div>
+        </a>
       </nav>
       <MobileMenu />
     </header>
