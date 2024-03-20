@@ -41,9 +41,6 @@ const Page = () => {
               </div>
             </a>
             <a href="mailto:denzelobeng421@gmail.com" className="btn">
-              <div className="flex items-center gap-1 text-grey-700 hover:text-black hover:font-medium">
-                View Portfolio <ArrowRight size={16} />
-              </div>
             </a>
           </div>
 
