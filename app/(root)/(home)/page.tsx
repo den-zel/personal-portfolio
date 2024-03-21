@@ -128,7 +128,7 @@ const Page = () => {
             </div>
           ))}
         </div>
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px, 1fr))] gap-3 tablet:gap-6">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px, 1fr))] gap-3 tablet:gap-6" data-aos='fade-down' data-aos-delay='400'>
           {benefits.slice(2).map((benefit, index) => (
             <div key={index} className="box">
               <h5 className="text-grey-700 mb-2">{benefit.name}</h5>
