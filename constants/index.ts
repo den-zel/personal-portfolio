@@ -67,7 +67,7 @@ export const portfolios = [
   {
     id: 1,
     title: "Lift Influence",
-    link: "https://www.oownee.com",
+    link: "https://www.liftinfluence.com",
     images: [
       "/images/liftinfluence.png",
     ],

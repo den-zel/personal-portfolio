@@ -138,16 +138,18 @@ const Page = () => {
         </div>
       </section>
 
-      {/* portfolio section */}
       <section className="section-padding max-width" data-aos='fade-down' data-aos-delay='200'>
-        <SectionHeading title="My Works" subtitle="View the live projects I have worked on." />
+  <SectionHeading title="My Works" subtitle="View the live projects I have worked on." />
 
-        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px, 1fr))] gap-3 tablet:gap-6" data-aos='fade-right' data-aos-delay='500'>
-          {portfolios.slice(0, 3).map((portfolio, index) => (
-            <PortfolioItem key={index} portfolio={portfolio} />
-          ))}
-        </div>
-      </section>
+  <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] tablet:grid-cols-[repeat(auto-fit,minmax(400px, 1fr))] gap-3 tablet:gap-6" data-aos='fade-right' data-aos-delay='500'>
+    {portfolios.slice(0, 3).map((portfolio, index) => (
+      <a key={index} href={index === 0 ? "https://www.liftinfluence.com" : index === 1 ? "https://www.oownee.com" : index === 2 ? "https://www.tryvoxai.co" : "#"} target="_blank" rel="noopener noreferrer">
+        <PortfolioItem portfolio={portfolio} />
+      </a>
+    ))}
+  </div>
+</section>
+
 
       {/* FAQs Section */}
       <FaqsSection />
