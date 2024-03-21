@@ -35,12 +35,10 @@ const Page = () => {
           data-aos-delay='300'
           >
             <a href="mailto:denzelobeng421@gmail.com" className="btn btn-primary">
-              <div className="text-grey-100 hover:text-white flex items-center gap-2">
+              <div className="text-grey-100 hover:text-white flex items-center justify-center gap-2">
                 <Phone />
                 Contact me
               </div>
-            </a>
-            <a href="mailto:denzelobeng421@gmail.com" className="btn">
             </a>
           </div>
 
@@ -69,13 +67,13 @@ const Page = () => {
             </div>
           </div>
 
-          <div className="mt-16 grid grid-cols-2 gap-3 tablet:hidden">
+          <div className="mt-16 grid grid-cols-2 gap-3 tablet:hidden" 
+          data-aos='fade-right' 
+          data-aos-delay='300'>
             <div className="py-8 px-10 rounded-lg bg-peach-400 text-center col-span-2" 
-            data-aos='fade-right' 
-            data-aos-delay='300'
             >
               <h3 className="text-grey-700">
-                55 <span className="text-blue">+</span>
+                6 <span className="text-blue">+</span>
               </h3>
               <p className="text-grey-600">Projects Completed</p>
             </div>
