@@ -74,18 +74,10 @@ export const portfolios = [
   },
   {
     id: 2,
-    title: "Oownee",
-    link: "https://www.oownee.com",
+    title: "GenY Solutions",
+    link: "https://www.genysolutions.tech",
     images: [
-      "/images/oownee.webp",
-    ],
-  },
-  {
-    id: 3,
-    title: "Vox",
-    link: "https://www.tryvoxai.co",
-    images: [
-      "/images/vox.png",
+      "/images/genysolutions.png",
     ],
   },
   {
