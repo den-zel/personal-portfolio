@@ -88,6 +88,14 @@ export const portfolios = [
       "/images/vox.png",
     ],
   },
+  {
+    id: 3,
+    title: "Nova",
+    link: "https://www.tryvoxai.co",
+    images: [
+      "/images/nova.png",
+    ],
+  },
 ];
 export const reviews = [
   {
