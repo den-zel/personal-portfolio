@@ -83,7 +83,7 @@ export const portfolios = [
   {
     id: 3,
     title: "Nova",
-    link: "https://www.tryvoxai.co",
+    link: "https://www.trynova.co",
     images: [
       "/images/nova.png",
     ],
